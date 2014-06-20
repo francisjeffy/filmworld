@@ -1,3 +1,10 @@
 from django.db import models
 
-# Create your models here.
+
+class Film(models.Model):
+    title = models.TextField()
+    director = models.ForeignKey('Director')
+
+
+class Director(models.Model):
+    name = models.TextField()
