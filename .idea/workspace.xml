@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac8c8a8f-96f2-4abe-8501-a7b69dd28da4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/films/models.py" afterPath="$PROJECT_DIR$/films/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filmworld/settings.py" afterPath="$PROJECT_DIR$/filmworld/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/films/tests.py" afterPath="$PROJECT_DIR$/films/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filmworld/urls.py" afterPath="$PROJECT_DIR$/filmworld/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/films/views.py" afterPath="$PROJECT_DIR$/films/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="filmworld.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,8 +50,20 @@
       <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/films/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.06787331" vertical-offset="0" max-vertical-offset="884">
-              <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+            <state vertical-scroll-proportion="0.13574661" vertical-offset="0" max-vertical-offset="884">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/films/templates/films/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="210">
+              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -112,9 +119,10 @@
         <option value="$PROJECT_DIR$/filmworld/settings.py" />
         <option value="$PROJECT_DIR$/films/models.py" />
         <option value="$PROJECT_DIR$/films/admin.py" />
-        <option value="$PROJECT_DIR$/films/views.py" />
         <option value="$PROJECT_DIR$/films/urls.py" />
         <option value="$PROJECT_DIR$/filmworld/urls.py" />
+        <option value="$PROJECT_DIR$/films/templates/films/index.html" />
+        <option value="$PROJECT_DIR$/films/views.py" />
       </list>
     </option>
   </component>
@@ -197,6 +205,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filmworld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filmworld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="films" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="films" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -207,6 +237,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="tests" factoryName="py.test">
@@ -462,11 +493,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/films/templates/films/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="210">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/films/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06787331" vertical-offset="0" max-vertical-offset="884">
-          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
-          <folding />
+        <state vertical-scroll-proportion="0.13574661" vertical-offset="0" max-vertical-offset="884">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
